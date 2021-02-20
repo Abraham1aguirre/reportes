@@ -1,4 +1,12 @@
 # Starter pipeline
+- task: SendGridEmail@2
+  inputs:
+    SendGridApiKey: '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'
+    FromAddress: 'abraham.aguirre@tuvanosa.com'
+    ToAddresses: 'abraham1aguirre@gmail.com'
+    Subject: 'Prueba'
+    emailBodyFormat: 'InLine'
+    EmailBody: 'hola'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
