@@ -15,7 +15,7 @@ steps:
 - task: SendGridEmail@2
   inputs:
     SendGridApiKey: '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'
-    FromAddress: 'abraham.aguirre@tuvanosa.com'
+    FromAddress: 'abraham1aguirre@gmail.com'
     ToAddresses: 'abraham1aguirre@gmail.com'
     Subject: 'Prueba'
     emailBodyFormat: 'InLine'
